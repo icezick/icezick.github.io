@@ -1,0 +1,383 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    width: 700;
+
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    padding: 62px 34px 39px 35px;
+}
+
+.header_logo {
+    flex: 1;
+    text-align: left;
+}
+
+.nav_menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex: 2;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu_item {
+    margin-right: 30px;
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav_menu a:hover{
+    color: #8442AD;
+}
+
+.nav_button {
+    width: 80px;
+    height: 50px;
+    background-color: #8442AD;
+    border-radius: 50px/50px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/*Main*/
+/*1 services*/
+.wrapper {
+    margin: 0 32px 0 35px;
+    width: 930px;
+    height: 450px;
+    background-image: url(../img/h1\ photo.png);
+    background-repeat: no-repeat;
+    
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.button {
+    margin-top: 60px;
+    width: 290px;
+    height: 60px;
+    border-radius: 10px/10px;
+    text-align: center;
+    font-size: 18px;
+    color: #8442AD;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.h1content {
+    margin: 0 auto;
+    padding-top: 67px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+
+.hedding1 {
+    margin: 0 auto;
+    padding: 72px 109px 0 236px;
+
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    opacity: 0.8  ;
+}
+
+.quote {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+.cite {
+    padding-left: 333px;
+
+}
+
+/* 2 skill-menu*/
+.skill_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill_menu_tag {
+    margin: 0;
+    padding-top: 26px;
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.skill_list {
+    margin: 0;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 26px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.skill_list p{
+    margin: 0;
+    padding-top: 27px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+/*about me*/
+.about_me_wrapper {
+    margin-top: 66px;
+    margin-right: 35px;
+    margin-left: 35px;
+    width: 930px;
+    height: 450px;
+    background-color: #EFEFEF;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin: 0;
+    padding-top: 29px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.about_me_h2 {
+    margin: 0;
+    padding-top: 16px;
+
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my_name {
+    margin: 0;
+    padding-top: 3px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color:#510283;
+}
+
+.about_me_hobby {
+    margin: 0;
+    padding-top: 56px       ;
+    width: 828px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 25px;
+
+
+    text-align: center;
+}
+
+.about_me_hobby_2 {
+    margin: 0;
+    padding-top: 15px;
+
+    width: 828px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 25px;
+
+
+    text-align: center;
+}
+
+/*Portfolio*/
+.portfolio_h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 46px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.portfolio_a {
+    max-width: 206px;
+    
+
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #ffffff;
+}
+
+.portfolio_flex_container {
+    margin-left: 35px;
+    margin-right: 35px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.famyily_photo_wrapper {
+    width: 290px;
+    height: 350px;
+
+    background: #C4C4C4;
+    background-repeat: no-repeat;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+}
+.famyily_photo_wrapper .info a {
+    padding-left: 15px;
+}
+
+.event_photo_wrapper {
+    width: 290px;
+    height: 350px;
+
+    background: #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/2.jpg);
+}
+.event_photo_wrapper div {
+    padding-left: 32px;
+    padding-top: 158px;
+}
+
+.wedding_photo_wrapper{
+    width: 290px;
+    height: 350px;
+
+    background: #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/3.jpg);
+}
+
+.wedding_photo_wrapper .info a {
+    padding-left: 5px;
+}
+
+
+.info {
+    padding-top: 133px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.info a:hover {
+    color: #8442AD;
+}
+
+/*footer*/
+
+.foother {
+    margin: 267px 35px 37px 35px;
+}
+
+.foother_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foother_social_list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.social_button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
